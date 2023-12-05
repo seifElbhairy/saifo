@@ -1,0 +1,23 @@
+﻿<Page x:Class="Registeration___Login_Desktop_Application.login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Registeration___Login_Desktop_Application"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="login">
+
+    <Grid>
+        <Grid Background="Gold"/>
+        <Label Content="user name" HorizontalAlignment="Left" Margin="65,71,0,0" VerticalAlignment="Top" FontSize="25" FontWeight="Bold" FontStyle="Italic"/>
+            <Label x:Name="L" Content="login page" HorizontalAlignment="Left" Margin="285,10,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" FontStyle="Italic"/>
+            <Label Content="password" HorizontalAlignment="Left" Margin="65,119,0,0" VerticalAlignment="Top" FontSize="25" FontWeight="Bold" FontStyle="Italic"/>
+            <Button x:Name="text" Content="" HorizontalAlignment="Left" Margin="271,81,0,0" VerticalAlignment="Top" Width="220" Height="33"/>
+            <Button x:Name="text2" Content="" HorizontalAlignment="Left" Margin="285,124,0,0" VerticalAlignment="Top" Width="220" Height="33"/>
+            <Button x:Name="forget" Content="forget password" HorizontalAlignment="Left" Margin="125,291,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" FontStyle="Italic" Click="forget_Click"/>
+            <Button x:Name="login" Content="log in" HorizontalAlignment="Left" Margin="322,318,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" FontStyle="Italic" Width="86" Click="login_Click"/>
+            <Button x:Name="sign" Content="sign up" HorizontalAlignment="Left" Margin="536,284,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+
+        </Grid>
+</Page>
